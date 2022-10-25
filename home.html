@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> STROKE PREDICTION </title>
+<link rel ="stylesheet" href="/static/css/style.css">
+</head>
+
+
+<body background ="/static/images/background1.jpg">
+             
+    <div class ='input form'>
+        <form action ='/predict' method="POST">
+            <h1 id="heading" align="center"> STROKE PREDICTION </h1>
+            <form>
+                
+                <div class="mb-3">
+                    <label for="exampleInputEmail1"   class="form-label">Age</label>
+                    <input type="text" class="form-control" id="age" name="age" placeholder="Age">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1"   class="form-label">Hypertension</label>
+                  <select class="form-select"id="hypertension" name="hypertension" aria-label="Default select example">
+                      <option selected >--Select hypertension--</option>
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1"   class="form-label"> Heart Disease</label>
+                  <select class="form-select" id="disease" name="disease" aria-label="Default select example">
+                      <option selected >--Select Heart Disease --</option>
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1"  class="form-label"> Work Type</label>
+                  <select class="form-select" id="work" name="work" aria-label="Default select example">
+                      <option selected >--Select Work Type --</option>
+                      <option value="Self-employed">Self-employed</option>
+                      <option value="Private">Private</option>
+                      <option value="Children">Children</option>
+                      <option value="Gov_job">Gov_job</option>
+                      <option value="Never_worked">Never_worked</option>
+                    </select>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1"  class="form-label">Enter avg glucose level</label>
+                    <input type="text" class="form-control" id="glucose" name="glucose" placeholder="Average Glucose level">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1"  class="form-label">Enter body mass index</label>
+                    <input type="text" class="form-control" id="bmi" name="bmi" placeholder="Body Mass Index[BMI]">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail1"   class="form-label"> smoking status</label>
+                <select class="form-select" id="smoking" name="smoking" aria-label="Default select example">
+                    <option selected >--Select smoking status --</option>
+                    <option value="never smoked">never-smoked</option>
+                    <option value="formerly smoked">formerly-smoked</option>
+                    <option value="smokes">smokes</option>
+                  </select>
+                </div>
+                      
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Gender</label>
+                  <select class="form-select" id="gender" name="gender" aria-label="Default select example">
+                      <option selected >--Select gender--</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                      
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1"  class="form-label"> Marital Status</label>
+                  <select class="form-select"id="married" name="married" aria-label="Default select example">
+                      <option selected >--Select Marital Status--</option>
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1"   class="form-label"> Residence type</label>
+                  <select class="form-select" id="residence" name="residence" aria-label="Default select example">
+                      <option selected >--Select Residence type--</option>
+                      <option value="1">Urban</option>
+                      <option value="0">Rural</option>
+                    </select>
+                  </div>
+
+                <div class="text-center"><button type="submit" class="btn btn-primary">Submit</button></div>
+            </form>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
