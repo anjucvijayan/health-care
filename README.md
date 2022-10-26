@@ -7,4 +7,5 @@ Stroke is a medical emergency. A stroke occurs when blood flow to a part of your
 
 
 Dataset link : https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
-web link :
+
+web link :http://strokeprediction.pythonanywhere.com/
